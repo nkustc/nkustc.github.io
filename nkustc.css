@@ -1,0 +1,9 @@
+body {background-color: black}
+p {margin-left: 20px; color: red}
+h1 {color: yellow}
+
+.cities {
+    background-color:whitesmoke;
+    margin:20px;
+    padding:20px;
+}
