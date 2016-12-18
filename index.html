@@ -1,23 +1,167 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" media="screen,print" href="nkustc.css" />
-    <script src="nkustc.js"></script>
+  <title>about me</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">  
+
+  <link href="css/cover.css" rel="stylesheet">
+
+  <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
-<html>
+
 <body>
-<h1>Hello World!</h1>
-<p>I'm hosted with GitHub Pages.</p>
 
-<div class="cities">
-<h2>London</h2>
-<p id="demo">
-London is the capital city of England. 
-It is the most populous city in the United Kingdom, 
-with a metropolitan area of over 13 million inhabitants.
-</p>
-</div> 
+<div class="container">
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">About me</a></li>
+  <li role="presentation"><a href="pulication.html">publications</a></li>
+  <li role="presentation"><a href="cv_en.pdf">full cv</a></li>
+</ul>
 
-<button type="button" onclick="myFunction()">Try it</button>
+  <div class="row">
+    <div class="col-xs-5 col-sm-4">
+      <img src="tqwang.jpg" class="img-responsive" alt="Responsive image">
+    </div>
+    <div class="col-xs-7 col-sm-8">
+      <h3>Tianqi Wang(王天祺)</h3>
+      <address>
+         Physics building 712, East campus of University of Science and Technology of China, Hefei, Anhui, China, 230026<br>
+      </address>
+
+      <address>
+      <strong>Tianqi Wang</strong><br>
+        <a href="mailto:#">tqwang@mail.ustc.edu.cn</a>
+      </address>
+    </div>
+    </div>
+
+
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="row">
+        <div class="col-xs-12"><h3><b>Interests</b></h3>
+        <p>orangeorange</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="row">
+        <div class="col-xs-12"><h3><b>Education</b></h3></div>
+        <div class ="col-xs-8 col-sm-8">
+          <ul class="education_list">
+            <li>University of Science and Technology of China<br>
+            Ph.D. Candidate Microelectronics<br>
+            Research Focus: Reconfigurable Computing<br>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-4 col-sm-4">
+          <p>AUG, 2012 – JUN, 2014</p>
+        </div>
+        <div class ="col-xs-8 col-sm-8">
+          <ul class="education_list">
+            <li>University of Science and Technology of China<br>
+            Master Candidate Microelectronic<br>
+            Research Focus: Reconfigurable Computing<br>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-4 col-sm-4">
+          <p>AUG, 2014 – NOW</p>
+        </div>
+        <div class ="col-xs-8 col-sm-8">
+          <ul class="education_list">
+            <li>University of Science and Technology of China<br>
+            B.S. Applied Physics<br>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-4 col-sm-4">
+          <p>AUG, 2008 ‐ JUN, 2012</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="row">
+        <div class="col-xs-12"><h3><b>Experience</b></h3>
+          <p>  I  have experience in C/Matlab programming,  Verilog  coding and  PCB layout design.  And I am familiar with Xilinx FPGA. I participated in several projects and published some articles.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12">
+          <ul class="experience_list">
+            <li><h4>building  an experimental facility for  a quantum information research group.</h4>
+            <p>We  need to capture electric signal from  several  quantum bits,  process the data  and adjust the quantum bits’status in realtime. Different from the traditional Fourier transformation or Laplace transformation, the  physicists propose various transformation to  process the data.  So we try to build the whole digital system in FPGAs.  The workload increase greatly with the number of quantum bits. So building efficient signal processing system is the key problem of the whole experimental facility.</p>
+            </li>
+            <li><h4>Build an N-body simulation accelerator with FPGA for MOND galactic dynamics simulation</h4>
+            <p><strong>Wang, T.</strong>, Peng, B., & Jin, X. (2016, February). An Extensible Heterogeneous Multi-FPGA Framework for 
+Accelerating N-body Simulation. In Proceedings of the 2016 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (pp. 277-277). ACM</p>
+            <p><strong>Wang, T.</strong>, Peng, B., & Jin, X. (2016,  May).  RP-ring: A Heterogeneous multi-FPGA Accelerating Solution for N-body Simulations.  In Field-Programmable Custom  Computing Machines (FCCM), 2016 IEEE 24th  Annual 
+International Symposium. IEEE</p>
+            </li>
+            <li><h4>Build a SSD controller  with FPGA  for astronomy data which is used at Yunnan Observatories, Chinese Academy of Sciences.</h4>
+            <p>Peng, B., Jin, X.,  <strong>Wang, T.</strong>, & Du, X. (2015, May). Design of a Distributed Compressor for Astronomy SSD. 
+In Field-Programmable Custom Computing Machines (FCCM), 2015 IEEE 23rd Annual International Symposium 
+on (pp. 98-98). IEEE</p>
+            </li>
+            <li><h4>Build a  high-resolution time-to digital converter (TDC)  with FPGA  for Large Area Water Cherenkov Array (LAWCA).</h4>
+            <p>Xiang, T., Zhao, L., Jin, X., <strong>Wang, T.</strong>, Chu, S., Ma, C., ... & An, Q. (2014, May). A 56-ps multi-phase clock time-to-digital convertor based on Artix-7 FPGA. In Real Time Conference (RT), 2014 19th IEEE-NPSS (pp. 1-4). IEEE.</p>
+            <p>Xiang, T., Zhao, L., Jin, X., <strong>Wang, T.</strong>, Chu, S., Ma, C., ... & Ben, X. (2014, May). A Multi-phase Clock Time-to-Digital Convertor Based on ISERDES Architecture. In Field-Programmable Custom Computing Machines (FCCM), 
+2014 IEEE 22nd Annual International Symposium on (pp. 35-35). IEEE.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="row">
+        <div class="col-xs-12"><h3><b>Award</b></h3></div>
+        <div class ="col-xs-8 col-sm-8">
+          <ul class="award_list">
+            <li>First-class Graduate School Scholarship<br>
+            University of Science and Technology of China<br>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-4 col-sm-4">
+          <p>2015 – 2016</p>
+        </div>
+        <div class ="col-xs-8 col-sm-8">
+          <ul class="award_list">
+            <li>First-class Graduate School Scholarship<br>
+            University of Science and Technology of China<br>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-4 col-sm-4">
+          <p>2014 – 2015</p>
+        </div>
+        <div class ="col-xs-8 col-sm-8">
+          <ul class="award_list">
+            <li>Second Prize Chinese Graduate Students electronic design contest<br>
+            Chinese Institute of Electronics<br>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-4 col-sm-4">
+          <p>2012</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 </body>
 </html>
